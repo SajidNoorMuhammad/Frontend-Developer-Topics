@@ -1,0 +1,240 @@
+.heading {
+    font-family: 'Open Sans';
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+.header {
+    background-color: black;
+    padding: 15px 0px;
+}
+
+.para {
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.heading1 {
+    font-weight: bold;
+    color: rgb(13, 109, 183);
+    font-family: 'Open Sans';
+}
+
+.para1 {
+    color: #808080;
+    font-size: 20px;
+}
+
+.para2 {
+    color: #808080;
+    font-size: 20px;
+}
+
+.para3 {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.btn1 {
+    width: 50%;
+    padding: 8px 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(13, 109, 183);
+    background-color: white;
+    font-weight: bold;
+    color: rgb(13, 109, 183);
+}
+
+.btn1:hover{
+    text-decoration: underline;
+    /* background-color: ; */
+}
+
+.col{
+    border: 1px solid rgba(0, 0, 0, .125);
+    padding-left: 10px !important;
+    margin-bottom: 3%;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.cool{
+    margin-left: 16px !important;
+}
+
+.cool1{
+    padding: 10px;
+}
+
+.para0, .para{
+    display: block;
+}
+
+#para1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.heading2{
+    font-family: 'open sans';
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.h4{
+    font-weight: bold;
+    color: black;
+}
+
+.h44{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+.bullets{
+    font-size: 20px;
+}
+
+.topic{
+    margin-top: 2%;
+    color: black;
+    text-decoration: underline;
+}
+
+.heading3{
+    color: black;
+}
+
+.example{
+    color: red;
+    font-size: 20px;
+}
+
+.example>.bold{
+    padding-top: 10px !important;
+}
+
+i{
+    color: blue;
+}
+
+.topic1{
+    color: blue;
+    margin-top: 8px;
+}
+
+.example-img{
+    margin-top: 1%;
+    width: 70%;
+    height: 100px;
+}
+
+.imj{
+    margin-top: 2%;
+    width: 70%;
+    height: 200px;
+}
+
+.array{
+    font-size: 20px;
+    color: blue;
+}
+
+.arraymethod{
+    display: none;
+}
+
+.array{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.hidearray{
+    display: none;
+    font-size: 20px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+#para1{
+    display: none;
+}
+
+.opp{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: 'open Sans';
+    text-decoration: underline;
+    text-align: center;
+}
+
+.oppinfo{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 1%;
+}
+
+.opp1{
+    color: black;
+    margin-top: 3%;
+}
+
+.oppimg{
+    height: 400px;
+    width: 100%;
+}
+
+.oppabs{
+    height: 400px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.intq{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.interviewq{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: none;
+}
+
+.html{
+    text-decoration: underline;
+    color: black;
+}
+
+.question{
+    color: black;
+    margin-top: 1%;
+}
+
+.heading3{
+    margin-top: 2%;
+    color: black;
+    color: blue;
+}
+
+/* #para, #para0{
+    display: none;
+}
+
+#para1{
+    display: block;
+} */

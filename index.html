@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Topics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="Website Icon" href="Images/aa.avif">
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="heading">Frontend Developer Important Topics</h1>
+    </div>
+
+    <div class="para" id="para0">
+        <h3 class="heading1">Q. What Does a Front-End Developer Do?</h3>
+        <p class="para1">A front-end developer is a type of software developer who specializes in creating and designing
+            the user interface (UI) and user experience (UX) of websites and web applications. The primary
+            responsibility of a front-end developer is to ensure that the visual and interactive aspects of a website or
+            application are user-friendly, aesthetically pleasing, and functionally efficient.</p>
+
+        <h3 class="heading1">Q. How Front-End Developer Work?</h3>
+        <p class="para2">Front-end developers work with various technologies, tools, and languages, including: <br>
+            <br><b>HTML (HyperText Markup Language):</b> The standard markup language used to create the structure and
+            layout of
+            web pages. <br><br>
+            <b>CSS (Cascading Style Sheets):</b> A stylesheet language used to control the presentation, formatting, and
+            appearance of web pages, such as colors, fonts, and layout. <br><br>
+            <b>JavaScript: </b> A programming language that allows developers to add interactivity, animations, and
+            other
+            dynamic elements to websites and web applications.
+        </p>
+    </div>
+
+    <div class="para" id="para">
+        <div class="row">
+            <div class="col">
+                <div class="cool1">
+                    <h3 class="heading1">HTML</h3>
+                    <p class="para3">Web & App Crash Course <br>Hyper Text Markup Language</p>
+                    <button class="btn1">Click</button>
+                </div>
+            </div>
+            <div class="col cool">
+                <div class="cool1">
+                    <h3 class="heading1">CSS</h3>
+                    <p class="para3">Web & App Crash Course <br>Cascading Styling Sheets</p>
+                    <button class="btn1">Click</button>
+                </div>ٖ
+            </div>
+            <div class="col cool">
+                <div class="cool1">
+                    <h3 class="heading1">JS</h3>
+                    <!-- <p class="para3"></p> -->
+                    <p class="para3">Web & App Crash Course <br> JavaScript</p>
+                    <button class="btn1">Click</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="cool1">
+                    <h3 class="heading1">AJS</h3>
+                    <p class="para3">Web & App Crash Course <br>Advance JavaScript</p>
+                    <button onclick="advancejavascript()" class="btn1">Click</button>
+                </div>
+            </div>
+            <div class="col cool">
+                <div class="cool1">
+                    <h3 class="heading1">TS</h3>
+                    <p class="para3">Web & App Crash Course <br>TypeScript</p>
+                    <button class="btn1">Click</button>
+                </div>ٖ
+            </div>
+            <div class="col cool">
+                <div class="cool1">
+                    <h3 class="heading1">React</h3>
+                    <!-- <p class="para3"></p> -->
+                    <p class="para3">Web & App Crash Course <br> React</p>
+                    <button class="btn1">Click</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="para1">
+        <h1 class="heading2">Advanced JavaScript</h1>
+        <h4 class="h4">Q. What is Advance JavaScript?</h4>
+        <p class="para2"> Advanced JavaScript refers to the more complex and sophisticated features and techniques
+            available in the
+            JavaScript programming language. As one of the most popular programming languages for web development,
+            JavaScript offers a wide range of capabilities that go beyond the basics. <br>
+            JavaScript, a cornerstone of web development, has evolved significantly over the years. From its humble
+            beginnings, it has transformed into a robust language with advanced features, commonly referred to as
+            JavaScript Advanced.
+        </p>
+        <h4 class="h4">Q. Why we use Advanced JS in our code?</h4>
+        <p class="para2">Advanced JavaScript concepts include closures, asynchronous programming with promises and
+            async/await, as well as design patterns. They enhance code efficiency, scalability, and maintainability in
+            complex web applications.</p>
+
+        <h4 class="h44">Important Topics Of Advanced JavaScript</h4>
+        <li class="bullets">Variable Scoping</li>
+        <li class="bullets">Closure</li>
+        <li class="bullets">Template literals</li>
+        <li class="bullets">Destructuring</li>
+        <li class="bullets"> Default parameters</li>
+        <li class="bullets">Rest parameter</li>
+        <li class="bullets">Spread Operator</li>
+        <li class="bullets">Arrow functions</li>
+        <li class="bullets"> Enhanced object literals</li>
+        <li class="bullets">Iterators & For..of</li>
+        <li class="bullets"> Generators</li>
+        <li class="bullets"> Modules</li>
+        <li class="bullets">Map</li>
+        <li class="bullets">Array methods</li>
+        <li class="bullets"> Higher-order function</li>
+        <li class="bullets"> CallBack</li>
+        <li class="bullets"> Promises</li>
+        <li class="bullets">Exponentiation Operator</li>
+        <li class="bullets"> Classes</li>
+        <li class="bullets"> Ternary Operator</li>
+        <li class="bullets"> Optional chaining</li>
+
+
+        <div class="variable">
+            <h3 class="topic">Variable Scoping:-</h3>
+            <h3 class="heading3">var</h3>
+            <p class="para2">The "var" keyword is used to declare variables in JavaScript. It was introduced in the
+                early days of the
+                language and was the only way to declare variables for a long time. However, the "var" keyword has some
+                limitations and has been largely replaced by the "let" and "const" keywords in modern JavaScript.
+
+                One of the main issues with "var" is that it is function-scoped, rather than block-scoped. This means
+                that variables declared with "var" are accessible within the entire function in which they are declared,
+                rather than just within the block of code in which they appear. This can lead to unexpected behavior and
+                can make it difficult to reason about the scope of variables in your code.
+            </p>
+            <h3 class="heading3">let</h3>
+            <p class="para2">
+                The "let" keyword was introduced in ECMAScript 6 (also known as ES6) and is used to declare variables
+                that can be reassigned later. "let" variables are block-scoped, which means that they are only
+                accessible within the block of code in which they are declared. This makes them more predictable and
+                easier to reason about than "var" variables.
+            </p>
+            <h3 class="heading3">const</h3>
+            <p class="para2">
+                The "const" keyword was also introduced in ES6 and is used to declare variables that cannot be
+                reassigned later. "const" variables are also block-scoped and behave similarly to "let" variables in
+                that respect. However, the main difference is that "const" variables must be initialized with a value
+                when they are declared and cannot be reassigned later.
+            </p>
+        </div>
+
+        <div class="closure">
+            <h3 class="topic">Closure:-</h3>
+            <p class="para2">
+                A closure is the combination of a function bundled together (enclosed) with references to its
+                surrounding state (the lexical environment). In other words, a closure gives you access to an outer
+                function's scope from an inner function. In JavaScript, closures are created every time a function is
+                created, at function creation time.
+            <div class="example">
+                <u>Example:</u> <br>
+                function myFunction() { <br>
+                let a = 4; <br>
+                return a * a;<br>
+                }
+            </div>
+            </p>
+        </div>
+
+        <div class="literals">
+            <h3 class="topic">Template Literals:-</h3>
+            <p class="para2">
+                Template literals, also known as template strings, are a feature in JavaScript that allow for easier
+                string interpolation and multi-line strings. They are denoted by backticks (`) instead of single or
+                double quotes.
+
+            <div class="example">
+                <u>Example:</u> <br>
+                const name = "Alice"; <br>
+                const message = `Hello, ${name}!`; <br>
+                console.log(message); // Output: Hello, Alice!
+            </div>
+            </p>
+        </div>
+
+        <div class="destructuring">
+            <h3 class="topic">Destructuring:-</h3>
+            <p class="para2">
+                The destructuring assignment is a cool feature that came along with ES6. Destructuring is a JavaScript
+                expression that makes it possible to unpack values from arrays, or properties from objects, into
+                distinct variables. That is, we can extract data from arrays and objects and assign them to variables.
+            </p>
+
+            <div class="example">
+                <u>Example:</u> <br>
+                let introduction = ["Hello", "I" , "am", "Sarah"]; <br>
+                let greeting = introduction[0]; <br>
+                let name = introduction[3]; <br>
+
+                console.log(greeting);//"Hello" <br>
+                console.log(name);//"Sarah"<br>
+            </div>
+        </div>
+
+        <div class="defaultparameters">
+            <h3 class="topic">Default Parameters:-</h3>
+            <p class="para2">
+                A default parameter is one that need not necessarily be provided by the caller; if it is missing, then a
+                preestablished default value will be used instead.
+            </p>
+            <div class="example">
+                <u>Example:</u> <br>
+                function greet(name = "Guest") { <br>
+                console.log(`Hello, ${name}!`); <br>
+                } <br>
+
+                greet(); <br>
+
+                // Output: Hello, Guest!
+            </div>
+        </div>
+
+        <div class="restparameters">
+            <h3 class="topic">Rest Parameters:-</h3>
+            <p class="para2">
+                The rest parameter syntax allows a function to accept an indefinite number of arguments as an array,
+                providing a way to represent variadic functions in JavaScript.
+            </p>
+            <div class="example">
+                <u>Example:</u> <br>
+                function fun(a, b){ <br>
+                return a + b; <br>
+                } <br>
+                console.log(fun(1, 2)); // 3 <br>
+                console.log(fun(1, 2, 3, 4, 5)); // 3
+            </div>
+        </div>
+
+        <div class="SpreadOperator">
+            <h3 class="topic">Spread Operator:-</h3>
+            <p class="para2">
+                The spread operator in JavaScript is a syntax introduced in ECMAScript 6 (ES6) that allows you to spread
+                the elements of an iterable (such as arrays, strings, or objects), into another iterable or function
+                call.It is denoted by three dots “...” followed by an expression or an iterable. The spread operator is
+                a powerful tool that provides a concise and flexible way to work with data in JavaScript.
+            </p>
+            <div class="example">
+                <u>Example:</u> <br>
+                <b class="bold">1. Concatenating Arrays</b> <br>
+                const arr1 = [1, 2, 3]; <br>
+                const arr2 = [4, 5, 6]; <br>
+                const concatenatedArr = [...arr1, ...arr2]; <br>
+                console.log(concatenatedArr); // Output: [1, 2, 3, 4, 5, 6] <br>
+                <br>
+                <b class="bold">2. Spreading Strings</b> <br>
+                const str = "Hello"; <br>
+                const charArray = [...str]; <br>
+                console.log(charArray); // Output: ['H', 'e', 'l', 'l', 'o']
+            </div>
+        </div>
+
+        <div class="shallowcopy">
+            <h3 class="topic">Shallow Copy:-</h3>
+            <p class="para2">
+                Shallow copy means that only the first level of the object is copied. Deeper levels are referenced.
+                A shallow copy can be achieved using the spread operator (…) or using Object.assign().
+            </p>
+            <div class="example">
+                <u>Example:</u> <br>
+                const obj = { name: 'Version 1', additionalInfo: { version: 1 } }; <br>
+
+                const shallowCopy1 = { ...obj }; <br>
+                const shallowCopy2 = Object.assign({}, obj); <br>
+
+                shallowCopy1.name = 'Version 2'; <br>
+                shallowCopy1.additionalInfo.version = 2; <br>
+                shallowCopy2.name = 'Version 2'; <br>
+                shallowCopy2.additionalInfo.version = 2; <br>
+
+                console.log(obj); // { name: 'Version 1', additionalInfo: { version: 2 } } <br>
+                console.log(shallowCopy1); // { name: 'Version 2', additionalInfo: { version: 2 } } <br>
+                console.log(shallowCopy2); // { name: 'Version 2', additionalInfo: { version: 2 } }
+            </div>
+        </div>
+
+        <div class="deepcopy">
+            <h3 class="topic">Deep Copy:-</h3>
+            <p class="para2">
+                Deep copy means that all levels of the object are copied. This is a true copy of the object.
+                A deep copy can be achieved using JSON.parse() + JSON.stringify().
+            </p>
+
+            <div class="example">
+                <u>Example:</u> <br>
+                const obj = { name: 'Version 1', additionalInfo: { version: 1 } }; <br>
+
+                const deepCopy = JSON.parse(JSON.stringify(obj)); <br>
+
+                deepCopy.name = 'Version 2'; <br>
+                deepCopy.additionalInfo.version = 2; <br>
+
+                console.log(obj); // { name: 'Version 1', additionalInfo: { version: 1 } } <br>
+                console.log(deepCopy); // { name: 'Version 2', additionalInfo: { version: 2 } }
+            </div>
+        </div>
+
+        <div class="arrowfunction">
+            <h3 class="topic">Arrow Function:-</h3>
+            <p class="para2">
+                An arrow function expression is a compact alternative to a traditional function expression, with some
+                semantic differences and deliberate limitations in usage:
+                <li class="para2">Arrow functions don't have their own bindings to this, arguments, or super, and should
+                    not be used as
+                    methods.</li>
+                <li class="para2"> Arrow functions cannot be used as constructors. Calling them with new throws a
+                    TypeError.</li>
+                <li class="para2">Arrow functions also don't have access to the new.target keyword.</li>
+                <li class="para2">Arrow functions cannot use yield within their body and cannot be created as generator
+                    functions.</li>
+            </p>
+
+            <div class="example">
+                <u>Example:</u> <br>
+                const materials = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium']; <br> <br>
+
+                console.log(materials.map((material) => material.length)); <br>
+                // Expected output: Array [8, 6, 7, 9]
+            </div>
+        </div>
+
+        <div class="Enhancedobjectliterals">
+            <h3 class="topic">Enhanced object literals:-</h3>
+            <p class="para2">
+                ES6 enhanced object literals is a JavaScript shortcut syntax for constructing objects. You can create an
+                object with a simplified syntax and avoid the requirement for repetitive code by using enhanced object
+                literals.
+            </p>
+
+            <div class="example">
+                <u>Example:</u> <br>
+                var name="one" <br>
+                var age=25 <br>
+                var salary=3500 <br>
+                var emp={ <br>
+                name:name, <br>
+                age:age, <br>
+                salary:salary <br>
+                } <br>
+                console.log(emp)
+            </div>
+        </div>
+
+        <div class="iterators">
+            <h3 class="topic">Iterators & For..of:-</h3>
+            <p class="para2">
+                In JavaScript an <b>iterator</b> is an object which defines a sequence and potentially a return value
+                upon its
+                termination.The most common iterator in JavaScript is the Array iterator, which returns each value in
+                the associated array in sequence. <br> <br>
+                The <b>for...of</b> statement executes a loop that operates on a sequence of values sourced from an
+                iterable
+                object. Iterable objects include instances of built-ins such as Array, String, TypedArray, Map, Set,
+                NodeList (and other DOM collections), as well as the arguments object, generators produced by generator
+                functions, and user-defined iterables.
+            </p>
+
+            <div class="example">
+                <u>Example:</u> <br>
+                const array1 = ['a', 'b', 'c']; <br>
+
+                <i>for</i> (const element <i>of</i> array1) { <br>
+                console.log(element); <br>
+                } <br>
+
+                // Expected output: "a" <br>
+                // Expected output: "b" <br>
+                // Expected output: "c" <br>
+            </div>
+        </div>
+
+        <div class="generators">
+            <h3 class="topic">Generators:-</h3>
+            <p class="para2">
+                In JavaScript, generators provide a new way to work with functions and iterators. <br>
+                By Using a generator,
+
+                <li class="para2">you can stop the execution of a function from anywhere inside the function</li>
+                <li class="para2">and continue executing code from a halted position</li>
+            </p>
+
+            <div class="example">
+                <u>Example:</u> <br>
+                function* fun() { <br>
+                yield 10; <br>
+                yield 20; <br>
+                yield 30; <br>
+                } <br>
+
+                let gen = fun(); <br>
+                console.log(gen.next().value); <br>
+                console.log(gen.next().value); <br>
+                console.log(gen.next().value); <br>
+            </div>
+        </div>
+
+        <div class="">
+            <h3 class="topic">Modules:-</h3>
+            <p class="para2">
+                A module is a chunk of code in an external file that performs a specific task or function. It is a
+                separate entity within a program, allowing for modularity and code reusability. By encapsulating related
+                code into modules, developers can organize their programs more efficiently and make them easier to
+                maintain. <br>
+                1. JavaScript modules allow you to break up your code into separate files. <br>
+                2. This makes it easier to maintain a code-base. <br>
+                3. Modules are imported from external files with the import statement. <br>
+                4. Modules also rely on type="module" in the script tag.
+            </p>
+
+            <div class="example">
+                <u>Example:</u> <br>
+                function getPower(decimalPlaces) { <br>
+                return 10 ** decimalPlaces; <br>
+                } <br>
+                function capitalize(word) { <br>
+                return word[0].toUpperCase() + word.slice(1); <br>
+                } <br>
+                function roundToDecimalPlace(number, decimalPlaces = 2) { <br>
+                const round = getPower(decimalPlaces); <br>
+                return Math.round(number * round) / round; <br>
+                } <br>
+                export { capitalize, roundToDecimalPlace };
+            </div>
+        </div>
+
+        <div class="map">
+            <h3 class="topic">Map:-</h3>
+            <p class="para2">
+                In JavaScript, map() is a method of the Array object. It creates a new array by calling a function on
+                every element of the original array and storing the results in a new array. map() returns the new array,
+                and the original array is unchanged.
+            </p>
+
+            <div class="example">
+                <u>Example:</u> <br>
+                const fruits = new Map([ <br>
+                ["apples", 500], <br>
+                ["bananas", 300], <br>
+                ["oranges", 200] <br>
+                ]); <br>
+                let numb = fruits.get("apples");
+            </div>
+        </div>
+
+
+        <h3 class="topic">Array Methods:-</h3>
+        <p class="para2">
+            Array methods are functions built-in to JavaScript that we can apply to our arrays — Each method has a
+            unique function that performs a change or calculation to our array and saves us from writing common
+            functions from scratch.
+        </p>
+        <button onclick="showmethods()" id="array" class="array">Show Array Methods</button>
+        <button onclick="hidemethods()" id="hidearray" class="hidearray">Hide Array Methods</button>
+        <div id="arraymethod" class="arraymethod">
+            <h3 class="topic1">1. map():-</h3>
+            <p class="para2">
+                This method creates a new array with the results of calling a provided function on every element in this
+                array.
+                <img class="example-img" src="Images/map.webp" alt="">
+            </p>
+            <h3 class="topic1">2. filter():-</h3>
+            <p class="para2">
+                This method creates a new array with only elements that passes the condition inside the provided
+                function.
+            </p>
+            <img class="example-img" src="Images/filter.webp" alt="">
+            <h3 class="topic1">3. sort():-</h3>
+            <p class="para2">
+                This method is used to arrange/sort array’s elements either in ascending or descending order.
+            </p>
+            <img class="example-img imj" src="Images/sort.webp" alt="">
+            <h3 class="topic1">4. forEach():-</h3>
+            <p class="para2">
+                This method helps to loop over array by executing a provided callback function for each element in an
+                array.
+            </p>
+            <img class="example-img imj" src="Images/foreach.webp" alt="">
+            <h3 class="topic1">5. concat():-</h3>
+            <p class="para2">
+                This method is used to merge two or more arrays and returns a new array, without changing the existing
+                arrays.
+            </p>
+            <img class="example-img imj" src="Images/concat.webp" alt="">
+            <h3 class="topic1">6. every():-</h3>
+            <p class="para2">
+                This method checks every element in the array that passes the condition, returning true or false as
+                appropriate.
+            </p>
+            <img class="example-img imj" src="Images/every.webp" alt="">
+            <h3 class="topic1">7. some():-</h3>
+            <p class="para2">
+                This method checks if at least one element in the array that passes the condition, returning true or
+                false as appropriate.
+            </p>
+            <img class="example-img imj" src="Images/some.webp" alt="">
+            <h3 class="topic1">8. includes():-</h3>
+            <p class="para2">
+                This method checks if an array includes the element that passes the condition, returning true or false
+                as appropriate.
+            </p>
+            <img class="example-img " src="Images/includes.webp" alt="">
+            <h3 class="topic1">9. join():-</h3>
+            <p class="para2">
+                This method returns a new string by concatenating all of the array’s elements separated by the specified
+                separator.
+            </p>
+            <img class="example-img" src="Images/join.webp" alt="">
+            <h3 class="topic1">10. reduce():-</h3>
+            <p class="para2">
+                This method applies a function against an accumulator and each element in the array to reduce it to a
+                single value.
+            </p>
+            <img class="example-img" src="Images/reduce.webp" alt="">
+            <h3 class="topic1">11. find():-</h3>
+            <p class="para2">
+                This method returns the value of the first element in an array that pass the test in a testing function.
+            </p>
+            <img class="example-img" src="Images/find.webp" alt="">
+            <h3 class="topic1">12. findindex():-</h3>
+            <p class="para2">
+                This method returns the index of the first element in an array that pass the test in a testing function.
+            </p>
+            <img class="example-img" src="Images/findindex.webp" alt="">
+            <h3 class="topic1">13. indexOf():-</h3>
+            <p class="para2">
+                This method returns the index of the first occurrence of the specified element in the array, or -1 if it
+                is not found.
+            </p>
+            <img class="example-img" src="Images/indexof.webp" alt="">
+            <h3 class="topic1">14. fill():-</h3>
+            <p class="para2">
+                This method fills the elements in an array with a static value and returns the modified array.
+            </p>
+            <img class="example-img" src="Images/fill.webp" alt="">
+            <h3 class="topic1">15. slice():-</h3>
+            <p class="para2">
+                This method returns a new array with specified start to end elements.
+            </p>
+            <img class="example-img" src="Images/slice.webp" alt="">
+            <h3 class="topic1">16. reverse():-</h3>
+            <p class="para2">
+                This method reverses an array in place. Element at last index will be first and element at 0 index will
+                be last.
+            </p>
+            <img class="example-img" src="Images/reverse.webp" alt="">
+            <h3 class="topic1">17. push():-</h3>
+            <p class="para2">
+                This method adds one or more elements to the end of array and returns the new length of the array.
+            </p>
+            <img class="example-img" src="Images/push.webp" alt="">
+            <h3 class="topic1">18. pop():-</h3>
+            <p class="para2">
+                This method removes the last element from the end of array and returns that element.
+            </p>
+            <img class="example-img" src="Images/pop.webp" alt="">
+            <h3 class="topic1">19. shift():-</h3>
+            <p class="para2">
+                This method removes the first element from an array and returns that element.
+            </p>
+            <img class="example-img" src="Images/shift.webp" alt="">
+            <h3 class="topic1">20. unshift():-</h3>
+            <p class="para2">
+                This method adds one or more elements to the beginning of an array and returns the new length of the
+                array.
+            </p>
+            <img class="example-img" src="Images/unshift.webp" alt="">
+        </div>
+
+        <div class="Higherorder">
+            <h3 class="topic">Higher Order Function:-</h3>
+            <p class="para2">
+                In JavaScript, a higher-order function is a function that can accept other functions as arguments,
+                return functions, or both. They enable abstraction, composition, and the creation of more flexible and
+                reusable code.
+            </p>
+            <div class="example">
+                <u>Example:</u> <br>
+                function higherOrderFunction(callback) { <br>
+                // Perform some operations <br>
+                // Call the callback function <br>
+                callback(); <br>
+                } <br>
+                function callbackFunction() { <br>
+                console.log("Callback function is executed."); <br>
+                } <br>
+                // Passing the callback function to the higher-order function <br>
+                higherOrderFunction(callbackFunction); <br>
+            </div>
+        </div>
+
+        <div class="callback">
+            <h3 class="topic">CallBack Function:-</h3>
+            <p class="para2">
+                A callback function is a function passed into another function as an argument, which is then invoked
+                inside the outer function to complete some kind of routine or action.
+            </p>
+            <div class="example">
+                <u>Example:</u> <br>
+                let value = 1; <br>
+                doSomething(() => { <br>
+                value = 2; <br>
+                }); <br>
+                console.log(value);
+            </div>
+        </div>
+
+        <div class="promises">
+            <h3 class="topic">Promises:-</h3>
+            <p class="para2">The Promise object represents the eventual completion (or failure) of an asynchronous
+                operation and its resulting value.
+            </p>
+            <div class="example">
+                <u>Example:</u> <br>
+                let myPromise = <i>new</i> Promise(function(myResolve, myReject) { <br>
+                // "Producing Code" (May take some time) <br>
+                myResolve(); // when successful <br>
+                myReject(); // when error <br>
+                }); <br>
+                // "Consuming Code" (Must wait for a fulfilled Promise) <br>
+                myPromise.then( <br>
+                function(value) { /* code if successful */ }, <br>
+                function(error) { /* code if some error */ } <br>
+                );
+            </div>
+        </div>
+
+        <div class="exponention">
+            <h3 class="topic">Exponentiation Operator:-</h3>
+            <p class="para2">
+                The exponentiation (**) operator returns the result of raising the first operand to the power of the
+                second operand. It is equivalent to Math.pow(), except it also accepts BigInts as operands.
+            </p>
+
+            <div class="example">
+                <u>Example:</u> <br>
+                console.log(3 ** 4); <br>
+                // Expected output: 81 <br>
+                console.log(10 ** -2); <br>
+                // Expected output: 0.01 <br>
+                console.log(2 ** (3 ** 2)); <br>
+                // Expected output: 512 <br>
+                console.log((2 ** 3) ** 2); <br>
+                // Expected output: 64 <br>
+            </div>
+        </div>
+
+        <div class="classes">
+            <h3 class="topic">Classes:-</h3>
+            <p class="para2">
+                Classes are a template for creating objects. They encapsulate data with code to work on that data.
+                Classes in JS are built on prototypes but also have some syntax and semantics that are unique to
+                classes.
+            </p>
+            <div class="example">
+                <u>Example:</u> <br>
+                // Declaration <br>
+                class Rectangle { <br>
+                constructor(height, width) { <br>
+                this.height = height; <br>
+                this.width = width; <br>
+                } <br>
+                } <br>
+                <br>
+                // Expression; the class is anonymous but assigned to a variable <br>
+                const Rectangle = class { <br>
+                constructor(height, width) { <br>
+                this.height = height; <br>
+                this.width = width; <br>
+                } <br>
+                }; <br>
+                <br>
+                // Expression; the class has its own name <br>
+                const Rectangle = class Rectangle2 { <br>
+                constructor(height, width) { <br>
+                this.height = height; <br>
+                this.width = width; <br>
+                } <br>
+                }; <br>
+            </div>
+        </div>
+
+        <div class="ternary">
+            <h3 class="topic">Ternary (Conditional) Operator:-</h3>
+            <p class="para2">
+                An alternative to the if/else statement, the ternary operator allows JavaScript developers to write
+                concise conditional statements. It is written as “?:” and takes three operands; a logical condition, a
+                value to return if true, and a value to return if false.
+            </p>
+            <div class="example">
+                function generateGreeting(signedIn) { <br>
+                return signedIn ? "Hello, Rory" : "Hello, Customer" <br>
+                } <br>
+                generateGreeting(true) <br>
+                // Returns "Hello, Rory" <br>
+                generateGreeting(false) <br>
+                // Returns "Hello, Customer"
+            </div>
+        </div>
+
+        <div class="Optionalchaining">
+            <h3 class="topic">Optional Chaining:-</h3>
+            <p class="para2">
+                The optional chaining (?.) operator accesses an object's property or calls a function. If the object
+                accessed or function called using this operator is undefined or null, the expression short circuits and
+                evaluates to undefined instead of throwing an error.
+            </p>
+            <div class="example">
+                const adventurer = { <br>
+                name: 'Alice', <br>
+                cat: { <br>
+                name: 'Dinah', <br>
+                }, <br>
+                }; <br>
+                <br>
+                const dogName = adventurer.dog?.name; <br>
+                console.log(dogName); <br>
+                // Expected output: undefined <br>
+
+                console.log(adventurer.someNonExistentMethod?.()); <br>
+                // Expected output: undefined <br>
+            </div>
+        </div>
+
+        <hr>
+        <div class="oop">
+            <h2 class="opp">Concept Of OOP's</h2>
+            <h2 class="oppinfo">OOP:-</h2>
+            <p class="para2">OOP Stands for Object-Oriented Programming. Object-Oriented Programming is a programming
+                style based on classes and objects. These group data
+                (properties) and methods (actions) inside a box.
+                OOP was developed to make code more flexible and easier to maintain</p>
+
+            <h2 class="oppinfo">OOP PRINCIPLES:-</h2>
+            <p class="para2">
+                There are 4 main principles in OOP, and they are:
+                <li class="para2">Abstraction</li>
+                <li class="para2">Encapsulation</li>
+                <li class="para2">Inheritance</li>
+                <li class="para2">Polymorphism</li>
+            </p>
+
+            <img class="oppimg" src="Images/oop.jpg" alt="">
+            <h3 class="opp1">Q. What Does Abstraction Mean in OOP?</h3>
+            <p class="para2">
+                Abstraction means hiding certain details that don't matter to the user and only showing essential
+                features or functions.
+                <br> <br>
+                For example, take a cell phone. We don't show details like verifyTemperature(), verifyVolt(),
+                frontCamOn(), frontCamOff() and so on. Instead we provide essential features which matter to user like
+                camera(), volumeBtn(), and others.
+            </p>
+            <img class="oppabs" src="Images/abstraction.jpg" alt="">
+
+            <h3 class="opp1">Q. What Does Encapsulation Mean in OOP?</h3>
+            <p class="para2">
+                Encapsulation means keeping properties and methods private inside a class, so that they are not
+                accessible from outside that class. <br>
+                This will keep code that's outside the class from accidentally manipulating internal methods and
+                properties.
+            </p>
+            <img class="oppabs" src="Images/encapsulation.jpg" alt="">
+
+            <h3 class="opp1">Q. What Does Inheritance Mean in OOP?</h3>
+            <p class="para2">
+                Inheritance makes all properties and methods available to a child class. This allows us to reuse common
+                logic and to model real-world relationships. We will discuss inheritance in further section of this
+                article with pratical example.
+            </p>
+            <img class="oppabs" src="Images/inheritance.png" alt="">
+
+            <h3 class="opp1">Q. What Does Polymorphism Mean in OOP?</h3>
+            <p class="para2">
+                Polymorphism is one of the core concepts of object-oriented programming (OOP) that describes situations
+                in which something occurs in several different forms. In computer science, polymorphism describes the
+                concept that you can access objects of different types through the same interface. Each type can provide
+                its own independent implementation of this interface.
+            </p>
+            <img class="oppabs" src="Images/polymorphism.jpg" alt="">
+
+        </div>
+
+        <hr>
+        <div class="storage">
+            <h2 class="opp">Concept Of Storage:-</h2>
+            <h3 class="opp1">Storage:-</h3>
+            <p class="para2">Data storage is the collective methods and technologies that capture and retain digital
+                information on electromagnetic, optical or silicon-based storage media. Storage is used in offices, data
+                centers, edge environments, remote locations and people's homes. Storage is also an important component
+                in mobile devices such as smartphones and tablets. Consumers and businesses rely on storage to preserve
+                information ranging from personal photos to business-critical data.</h3>
+            </p>
+
+            <h3 class="opp1">Local Storage:-</h3>
+            <p class="para2">
+                localStorage in JavaScript allows web applications to store data locally within the user's browser –
+                with no expiration date. The data isn’t deleted when the browser is closed, and is available when the
+                browser is opened again. <br> <br>
+                It stores up to 5MiB of data in local storage <br>
+                A maximum of 10MiB of data across bot localStorage and sessionStorage (data in sessionStorage is cleared
+                when the page session ends) <br>
+                Easy to use – no need for a web server or backend database <br>
+                Great for getting an idea up and running and for testing purposes <br>
+            </p>
+
+            <h3 class="opp1">Session Storage:-</h3>
+            <p class="para2">
+                The read-only sessionStorage property accesses a session Storage object for the current origin.
+                sessionStorage is similar to localStorage; the difference is that while data in localStorage doesn't
+                expire, data in sessionStorage is cleared when the page session ends.
+            </p>
+        </div>
+
+        <div class="web">
+            <h2 class="opp">Concept Of Web API:-</h2>
+            <h3 class="opp1">Web API:-</h3>
+            <p class="para2">
+                Application Programming Interfaces (APIs) are constructs made available in programming languages to
+                allow developers to create complex functionality more easily. They abstract more complex code away from
+                you, providing some easier syntax to use in its place.
+            </p>
+            <p class="example">
+                <b>Example:</b>
+                As a real-world example, think about the electricity supply in your house, apartment, or other
+                dwellings. If you want to use an appliance in your house, you plug it into a plug socket and it works.
+                You don't try to wire it directly into the power supply — to do so would be really inefficient and, if
+                you are not an electrician, difficult and dangerous to attempt
+            </p>
+
+            <h3 class="opp1">API Key:-</h3>
+            <p class="para2">
+                An API key is a unique code that identifies calls made to an API (Application Programming Interface). It
+                is used to authenticate and/or authorize API users and to track their usage. In simpler terms, an API
+                key is like a password that allows you to access certain data or services from an API. It is usually
+                provided by the API provider upon registration
+            </p>
+            <p class="example">
+                <b>Example:</b> <br>
+                fetch(`https://api.example.com/data?key=${API_KEY}`) <br>
+                .then(response => response.json()) <br>
+                .then(data => console.log(data)) <br>
+                .catch(error => console.error(error));
+            </p>
+            <h3 class="opp1">Fetch API:-</h3>
+            <p class="para2">
+                The Fetch API provides a JavaScript interface for making HTTP requests and processing the
+                responses.Fetch is the modern replacement for XMLHttpRequest: unlike XMLHttpRequest, which uses
+                callbacks, Fetch is promise-based and is integrated with features of the modern web such as service
+                workers and Cross-Origin Resource Sharing (CORS).With the Fetch API, you make a request by calling
+                fetch(), which is available as a global function in both window and worker contexts. You pass it a
+                Request object or a string containing the URL to fetch, along with an optional argument to configure the
+                request.The fetch() function returns a Promise which is fulfilled with a Response object representing
+                the server's response. You can then check the request status and extract the body of the response in
+                various formats, including text and JSON, by calling the appropriate method on the response.
+            </p>
+
+            <p class="example">
+                <b>Example:</b> <br>
+                let file = "fetch_info.txt" <br>
+                fetch (file) <br>
+                .then(x => x.text()) <br>
+                .then(y => document.getElementById("demo").innerHTML = y);
+            </p>
+
+            <h3 class="opp1">.then( ):-</h3>
+            <p class="para2">
+                The then() method of Promise instances takes up to two arguments: callback functions for the fulfilled
+                and rejected cases of the Promise. It stores the callbacks within the promise it is called on and
+                immediately returns another Promise object, allowing you to chain calls to other promise methods.
+            </p>
+
+            <p class="example">
+                <b>Example:</b> <br>
+                const promise1 = new Promise((resolve, reject) => { <br>
+                resolve('Success!'); <br>
+                }); <br>
+
+                promise1.then((value) => { <br>
+                console.log(value); <br>
+                // Expected output: "Success!" <br>
+                });
+            </p>
+
+            <h3 class="opp1">.catch( ):-</h3>
+            <p class="para2">
+                The catch() method of Promise instances schedules a function to be called when the promise is rejected.
+                It immediately returns another Promise object, allowing you to chain calls to other promise methods. It
+                is a shortcut for Promise.prototype.then(undefined, onRejected).
+            </p>
+            <p class="example">
+                <b>Example:</b> <br>
+                const promise1 = new Promise((resolve, reject) => { <br>
+                throw new Error('Uh-oh!'); <br>
+                }); <br>
+
+                promise1.catch((error) => { <br>
+                console.error(error); <br>
+                }); <br>
+                // Expected output: Error: Uh-oh!
+            </p>
+
+            <h3 class="opp1">.try( ):-</h3>
+            <p class="para2">
+                The Promise.try() static method takes a callback of any kind (returns or throws, synchronously or
+                asynchronously) and wraps its result in a Promise.
+            </p>
+            <p class="example">
+                <b>Example:</b> <br>
+                Promise.try(func)
+            </p>
+
+            <h3 class="opp1">Https:-</h3>
+            <p class="para2">
+                Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol
+                used to send data between a web browser and a website. HTTPS is encrypted in order to increase security
+                of data transfer. This is particularly important when users transmit sensitive data, such as by logging
+                into a bank account, email service, or health insurance provider.
+            </p>
+
+            <h3 class="opp1">Rest API:-</h3>
+            <p class="para2">
+                A REST API (also called a RESTful API or RESTful web API) is an application programming interface (API)
+                that conforms to the design principles of the representational state transfer (REST) architectural
+                style. REST APIs provide a flexible, lightweight way to integrate applications and to connect components
+                in microservices architectures.
+            </p>
+
+            <h3 class="opp1">JSON ():-</h3>
+            <p class="para2">
+                JSON (JavaScript Object Notation) is a text-based format for storing and exchanging data in a way that’s
+                both human-readable and machine-parsable. As a result, JSON is relatively easy to learn and to
+                troubleshoot. Although JSON has its roots in JavaScript, it has grown into a very capable data format
+                that simplifies data interchange across diverse platforms and programming languages. If you're involved
+                in web development, data analysis, or software engineering, JSON is an important data format to
+                understand.
+            </p>
+        </div>
+    </div>
+    <div class="interviewq">
+        <div class="htmlq">
+            <h2 class="intq">Interview Questions</h2>
+            <h3 class="html">HTML</h3>
+            <h4 class="question">Q. What is HTML?</h4>
+            <p class="para2">
+                HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It
+                allows
+                the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks
+                of a
+                web page) such as tags and attributes.
+            </p>
+            <h4 class="question">Q. Differentiate between Semantic and Non-Semantic tags?</h4>
+            <h4 class="heading3">* Semantic Tags</h4>
+            <p class="para2">
+                Semantic tags are HTML tags that have a specific meaning. For example, the
+                < h1> tag is a semantic tag that represents a heading. The <br>
+                    < p> tag is another semantic tag that represents a
+                        paragraph. Semantic tags are important because they help to make your HTML code more readable
+                        and
+                        understandable for both humans and machines.
+            </p>
+            <div class="example">
+                < h1>: Heading <br>
+                    < p>: Paragraph <br>
+                        < img>: Image <br>
+                            < a>: Link <br>
+                                < table>: Table <br>
+                                    < ul>: Unordered list <br>
+                                        < ol>: Ordered lis
+            </div>
+            <h4 class="heading3">* Non-Semantic Tags</h4>
+            <p class="para2">
+                Non-semantic tags are HTML tags that do not have a specific meaning. For example, the
+                < div> tag is a non-semantic tag that can be used to group elements together. The < span> tag is another
+                        non-semantic tag that can be used to style text. Non-semantic tags are often used for layout
+                        purposes,
+                        but they can also be used to add structure to your HTML code.
+            </p>
+            <div class="example">
+                < div>: Container <br>
+                    < span>: Styled text <br>
+                        < br>: Line break <br>
+                            < hr>: Horizontal rule <br>
+                                < input>: Form input <br>
+                                    < select>: Form select <br>
+                                        < textarea>: Form textarea
+            </div>
+            <h4 class="question">Q. Difference between div and span?</h4>
+            <h3 class="heading3">* div</h3>
+            <p class="para2">
+                The div tag is a generic block-level element used for associating and grouping together a larger chunk
+                of a
+                web page usually a section such as a header, footer, the main content, and so on.
+            </p>
+
+            <h3 class="heading3">* span</h3>
+            <p class="para2">
+                The span tag is an inline element that you use to make a smaller part of content stand out with CSS or
+                JavaScript. You shouldn't nest span unless you thoroughly know what you're doing – but you can put
+                multiple
+                span tags within a block-level element.
+            </p>
+
+            <h4 class="question">Q. What is an HTML Attribute?</h4>
+            <p class="para2">
+                An HTML attribute is a piece of markup language used to adjust the behavior or display of an HTML
+                element.
+                For example, attributes can be used to change the color, size, or functionality of HTML elements.
+            </p>
+
+            <h4 class="question">Q. How many types of attributes?</h4>
+            <p class="para2">
+                HTML attributes are generally classified as required attributes, optional attributes, standard
+                attributes,
+                and event attributes: Usually the required and optional attributes modify specific HTML elements. While
+                the
+                standard attributes can be applied to most HTML elements.ٖ
+            </p>
+            <h3 class="heading3">Required Attributes</h3>
+            <p class="paar2">
+                The required attribute is a boolean attribute. When present, it specifies that an input field must be
+                filled
+                out before submitting the form. Note: The required attribute works with the following input types: text,
+                search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
+            </p>
+
+            <h3 class="heading3">Optional Attributes</h3>
+            <p class="para2">
+                An optional attribute do not need any value assigned. An optional attribute is also called nullable. A
+                nullable attribute can contain a NULL value. The optional attribute in ER diagram is marked with NULL
+                text.
+            </p>
+
+            <h3 class="heading3">Standard Attributes</h3>
+            <p class="para2">
+                Standard attributes are also known as global attributes, and function with a large number of elements.
+                They
+                include the basic standard attributes: these include accesskey, class, contenteditable, contextmenu,
+                data,
+                dir, hidden, id, lang, style, tabindex, title
+            </p>
+            <h3 class="heading3">Event Attributes</h3>
+            <p class="para2">
+                In HTML, we can use event actions on the browser, and with the help of the event, the user responds to
+                the
+                system. Event Attributes can be used with HTML elements to perform various actions.
+            </p>
+
+            <h4 class="question">Q. What is DOCTYPE in HTML?</h4>
+            <p class="para2">
+                The HTML document type declaration, also known as DOCTYPE , is the first line of code required in every
+                HTML
+                or XHTML document. The DOCTYPE declaration is an instruction to the web browser about what version of
+                HTML
+                the page is written in. This ensures that the web page is parsed the same way by different web browsers.
+            </p>
+
+            <h4 class="question">Q. Why we use DOCTYPE in HTML?</h4>
+            <p class="para2">
+                The primary purpose of the DOCTYPE declaration is to inform browsers about the version of the markup
+                language in which the document is written. This helps browsers to render the document correctly by
+                applying
+                the appropriate parsing rules and rendering modes
+            </p>
+            <h4 class="question">Q. What is the use of head tag?</h4>
+            <p class="para2">
+                The head tag is an HTML element used to define the head section of an HTML document. The head section
+                contains metadata, which simply means data about data. This means information in the head tag is not
+                displayed on the page but the information is used by browsers and by search engines.
+            </p>
+            <h4 class="question">Q. Define the list types in HTML?</h4>
+            <p class="para2"> The list types in HTML are as below: <br>
+                Ordered list: The ordered list uses < ol> tag and displays elements in a numbered format. <br>
+                    Unordered list: The unordered list uses < ul> tag and displays elements in a bulleted format. <br>
+                        Definition list: The definition list uses < dl>, < dt>, < dd> tags and displays elements in
+                                    definition form like in a dictionary.
+            </p>
+
+            <h4 class="question">Q. What are void elements in HTML?</h4>
+            <p class="para2">
+                Void elements in HTML are tags that do not require a closing tag. They are used to insert images, line
+                breaks, and other content that does not require additional information.
+            </p>
+        </div>
+
+        <div class="cssinterviewq">
+            <div class="cssq">
+                <h3 class="html">Cascading Styling Sheets</h3>
+                <h4 class="question">Q. Name some CSS frameworks.</h4>
+                <p class="para2">
+                    CSS frameworks are libraries that make web page styling easier. Some of them are Foundation,
+                    Bootstrap, Gumby, Ukit, Semantic UI, etc.
+                </p>
+                <h4 class="question">Q. What do you understand by the universal sector?</h4>
+                <p class="para2">
+                    A universal selector is a selector that matches any element type's name instead of selecting
+                    elements of a particular type.
+                </p>
+                <h4 class="question">Q. What are the elements of the CSS Box Model?</h4>
+                <p class="para2">
+                    The CSS box model defines the layout and design of CSS elements. The elements are content (like text
+                    and images, padding (the area around content), border (the area around padding), and margin (the
+                    area around the border).
+                </p>
+                <h4 class="question">Q. Differentiate between CSS3 and CSS2.</h4>
+                <p class="para2">
+                    The main difference between CSS3 and CSS2 is that CSS divides different sections into modules and
+                    supports many browsers. It also contains new General Sibling Combinators responsible for matching
+                    similar elements.
+                </p>
+                <h4 class="question">Q. What is meant by RGB stream?</h4>
+                <p class="para2">
+                    RGB represents colors in CSS. The three streams are namely Red, Green, and Blue. The intensity of
+                    colors is represented using numbers 0 to 256. This allows CSS to have a spectrum of visible colors.
+                </p>
+                <h4 class="question">What is the difference between a class and an ID?</h4>
+                <p class="para2">
+                    Class is a way of using HTML elements for styling. They are not unique and have multiple elements.
+                    Whereas ID is unique and it can be assigned to a single element.
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
